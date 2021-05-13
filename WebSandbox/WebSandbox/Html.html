@@ -3,25 +3,87 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="HTML Basics" />
-    <meta name="keywords"content="HTML Basics, Web sandbox" />
-    <meta name="author"content="Lavagust Fox" />
+    <meta name="keywords" content="HTML Basics, Web sandbox" />
+    <meta name="author" content="Lavagust Fox" />
     <title>HTML Basics | Web Sandbox</title>
+
+    <link href="CSS/Custom.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-    <h1>
-        HTML Basics |Web Sandbox
-    </h1>
-        </header>
-    
+        <h1>
+            HTML Basics |Web Sandbox
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="CSS.html">Style</a>
+
+            </li>
+            <li>
+                <a href="Html.html" class=" selected">HTML</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Resources</a>
+            </li>
+            <li>
+                <a href="../CSS_Topics/Colors.html">Colors</a>
+            </li>
+        </ul>
+    </nav>
+
     <main>
         <aside>
             <h2>
                 Topics
             </h2>
+            <ul>
+                <li>
+                    <a href="#basics">HTML Basics</a>
+                </li>
+                <li>
+                    <a href="#tags">Tags</a>
+                </li>
+                <li>
+                    <a href="#Lists">Lists</a>
+                </li>
+                <li>
+                    <a href="#semantic">semantic/non-semantic</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools HTML</a>
+                </li>
+                <li>
+                    <a href=" https://validator.w3.org/" target="_blank">HTML Validator</a>
+                </li>
+                <li>
+                    <a href="http://www.sololearn.com/Course/HTML/" target="_blank">SoloLearn HTML</a>
+                </li>
+                <li>
+                    <a href="http://www.tutorialspoint.com/html/" target="_blank">TutorialsPoint HTML</a>
+                </li>
+                <li>
+                    <a href=" http://htmldog.com/guides/html/" target="_blank">HTML Dog (HTML)</a>
+                </li>
+                <li>
+                    <a href="https://panipsum.com/" target="_blank">Lorem Ipsum</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/y3UH2gAhwPl" target="_blank">The Ultimate Guide to Learning HTML and CSS</a>
+                </li>
+                <li>
+                    <a href="Basic HTML and CSS Website for Beginners" target="_blank">Basic HTML and CSS Website</a>
+                </li>
+
+                <!-- Mini Lab  Build bookmark links to naviated to Lists, Semantic/Nont-semantic tags,-->
+            </ul>
         </aside>
         <section>
-            <h1>
+            <h1 id="basics">
                 HTML Basics
             </h1>
             <p>
@@ -29,7 +91,7 @@
             </p>
 
             <article>
-                <h2>
+                <h2 id="tags">
                     Block vs. Inline Tags
                 </h2>
                 <p>
@@ -97,16 +159,16 @@
                         Common inline tags
                     </h3>
                     <ul>
-                        
-                        
-                        <li>   
+
+
+                        <li>
                             img -  an image to be displayed on the page.
                         </li>
-                        
+
                         <li>
                             a - Anchor tags typically used to create hyperlinks pointing to other locations.
                         </li>
-                        
+
                         <li>
                             span -  a generic inline element - only exists to target and manipulate it with CSS or JavaScript.
                         </li>
@@ -142,7 +204,7 @@
                 </section>
             </article>
             <article>
-                <h1>
+                <h1 id="List">
                     Lists
                 </h1>
                 <h2>
@@ -239,7 +301,7 @@
                 </dl>
             </article>
             <article>
-                <h1>
+                <h1 id="semantic">
                     Semantic vs. Non-Semantic tags
                 </h1>
                 <p>
@@ -268,10 +330,63 @@
                     </p>
                 </section>
             </article>
+            <article>
+                <h1>
+                    Links
+                </h1>
+                <h2>
+                    Relative vs Absolute
+                </h2>
+                <p>
+                    These are the two most common types of links. Relative links are typically used for files within your site. Absolute links are typically used to navigate outside of your site
+                </p>
+                <p>
+                    Relative lnks come in two forms: relative or Root-relative. Relative links navgate to a resource on your site from the current file loacation. Root-relative links navigate based upon the root folder.
+                    <br />
+                    Here is a relative example: <a href="index.html">Home</a>
+                    <br />
+                    Here is a root-relative example:<a href="/images/a-r-t-paola-589990-unsplash.jpg">Image</a>
+                    <br />
+                    This example takes us to a location outside ot this site:
+                    <a href="http://centriq.com" target="_blank">Centriq Training</a>
+                </p>
+                <p>
+                    <h2>
+                        Specialized links and Features
+                    </h2>
+                </p>
+                <p>
+                    Email Links open up a new email message in the user's default email client with thespecified email address prepopulated into the "to" field.
+                    <br />
+                    Email me at <a href="mailto:lazelldfox@gamil.com">lazelldfox@gmail.com</a>
+                </p>
+                <p>
+                    Telephone Links allow the default phone aplicatioon to open with a prepopulated phone number
+                    <br />
+                    call me at <a href="tel:+01-913-322-7000">913-322-7000</a>
+                </p>
+                <p>
+                    This image open a link in a new tab:
+                    <a href="http://centriq.com" target="_blank">
+                        <img src="images/CentriqLogo.png" />
+                    </a>
+                </p>
+                <p>
+                    Download links are links to non-HTML files. When clicked, the default action if browers is to downlad the file unles the browser can handle that file in a abrowser tab
+                </p>
+                <p>
+                    Named anchor (aka bookmark ) links refer to a location on a page my that location's id. This works similar to ids in CSS.'
+                </p>
+
+
+            </article>
         </section>
     </main>
     <footer>
-      &copy; 2021 Lavagust Fox
+        <p>
+            <a href="#">Go to Top</a>
+        </p>
+        &copy; 2021 Lavagust Fox
     </footer>
 </body>
 </html>

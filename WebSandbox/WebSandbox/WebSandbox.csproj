@@ -69,8 +69,33 @@
   <ItemGroup>
     <Content Include="CSS.html" />
     <Content Include="CSS\Custom.css" />
+    <Content Include="CSS\import.css" />
+    <Content Include="CSS_Topics\Colors.html" />
     <Content Include="Html.html" />
+    <Content Include="images\a-r-t-paola-589990-unsplash.jpg" />
+    <Content Include="images\ben-krygsman-745458-unsplash.jpg" />
+    <Content Include="images\border_wave.png" />
+    <Content Include="images\bullet_point_image_orange.png" />
+    <Content Include="images\bullet_point_image_teal.png" />
+    <Content Include="images\CentriqLogo.png" />
+    <Content Include="images\computer_icon.png" />
+    <Content Include="images\CSS_logo.png" />
+    <Content Include="images\goran-ivos-246271-unsplash.jpg" />
+    <Content Include="images\goran-ivos-422398-unsplash.jpg" />
+    <Content Include="images\greg-rakozy-129733-unsplash.jpg" />
+    <Content Include="images\hitesh-choudhary-562332-unsplash.jpg" />
+    <Content Include="images\HTML_logo.png" />
+    <Content Include="images\JS_logo.png" />
+    <Content Include="images\markus-spiske-507983-unsplash.jpg" />
+    <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
+    <Content Include="images\Sandbox-48.png" />
     <Content Include="index.html" />
+    <Content Include="resources\downloads\animations.css" />
+    <Content Include="resources\downloads\h5d-sectioning-flowchart.png" />
+    <Content Include="resources\downloads\killer_portfolio_infographic.jpg" />
+    <Content Include="resources\downloads\PeriodicTableHTMLTags.jpg" />
+    <Content Include="resources\downloads\Request-Response-Cycle.jpg" />
+    <Content Include="resources\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +103,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="resources\downloads\Frontend_Development_Roles.pdf" />
+    <Content Include="resources\downloads\HTML5Cheatsheet.pdf" />
+    <Content Include="resources\downloads\LiquidicityCSSHelp.pdf" />
+    <Content Include="resources\downloads\wsu-css-cheat-sheet.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -86,7 +115,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>

@@ -1,4 +1,6 @@
-﻿main
+﻿/*Imported sstyle sheeds should go at the top of your sites's CSS*/
+@import url('import.css');
+main
 {
     background-color:lavender;
 }
@@ -36,4 +38,62 @@ header h1
 footer
 {
     font-style: italic;
+}
+nav a
+{
+font-weight:bold;
+color:lightsalmon;
+}
+nav ul
+{
+    background-color:teal;
+    border-top:2px solid gray;
+    border-bottom:2px solid gray;
+}
+a
+{
+    color:teal;
+    font-weight: bold;
+    text-decoration:none;
+}
+/* horizontal nav bar styling*/
+
+nav ul li
+{
+    display:inline-block;
+}
+nav ul li a
+{
+    padding: .5em 1em;
+    display: block;
+}
+
+/* CSS pseudo-selectors allow us to set CSS styling for specific events, such as when you hover over an element, make an  element the gocus of tha page, or change styling based on  wheter or not a link has been visited*/
+
+a:hover
+{
+    color: lightblue;
+    text-decoration: underline;
+    background-color:darkblue
+}
+
+nav a:hover
+{
+    background-color:lightsalmon;
+    color:teal;
+}
+nav a:hover .selected
+{
+    background-color: lightsalmon;
+    color: teal
+}
+#colordemo1
+{
+    background-color:#6B00E8;
+    color:#FA1587;
+}
+#colordemo2
+{
+    background-color:#DDD;
+    color:#111;
 }

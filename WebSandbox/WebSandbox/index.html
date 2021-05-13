@@ -13,14 +13,14 @@
 <html>
 <!-- The HTML tag indicates where the HTML document begins and ends -->
 <head>
-    <!-- 
+    <!--
         The head tag contains configuration information for the page.
         Most of the content in the head is not displayed to the user.
         Common head tag content includes:
         - Title tags: set to be displayed in the browser tab.
-        -Meta tags: Provide information about the HTML document, including 
+        -Meta tags: Provide information about the HTML document, including
         the character set, SEO information, and search engine indexing info.
-        - Link tage: provide access to CSS files 
+        - Link tage: provide access to CSS files
         -Script tages: provide access to JavaScript files
     -->
     <meta charset="utf-8" />
@@ -28,10 +28,12 @@
     <meta name="description" content="Basic HTML and CSS information" />
     <meta name="keywords" content="HTML, CSS, Website Basics" />
     <title>FED1 | Inro to HTML and CSS</title>
+
+    <link href="CSS/Custom.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- 
-        The body tag must be the second tag withn the HTML tag. 
+    <!--
+        The body tag must be the second tag withn the HTML tag.
         It hold the content  of the page that will be displaed to the user.
         It can also contain JavaScript cod or links ( usually at the bottom of the page).
         Structual tags go inside the body tag to provide structure and content.
@@ -49,6 +51,26 @@
             Notes and Resources for HTML and CSS
         </p>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="CSS.html">Style</a>
+
+            </li>
+            <li>
+                <a href="Html.html" class=" selected">HTML</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Resources</a>
+            </li>
+            <li>
+                <a href="../CSS_Topics/Colors.html">Colors</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <!--  Main is the content for the primary page content It should only be used once per page. -->
         <aside>
@@ -71,7 +93,7 @@
                     Front-end Development
                 </h2>
                 <p>
-                    Front-end development is the tier of full-stack development that deals with visual elements of an application that a user interacts with. The three languages that a browser can render are HTML, CSS, and JavaScript. 
+                    Front-end development is the tier of full-stack development that deals with visual elements of an application that a user interacts with. The three languages that a browser can render are HTML, CSS, and JavaScript.
                     <br /> <!-- This is a line break-->
                     If you were to compare this tier of development to a a human body it would be the skin
                 </p>
@@ -123,7 +145,7 @@
     <footer>
         <!-- A footer is a conftainer at the bottom of a page or section that usually provides tertiary navigation, closing info, or accredidations. -->
         <!-- HTML character entities ae special characers displayed in HTML. They start with and ampersand and end wih a semicolon -->
-         &copy; 2021 Lavagust Fox
+        &copy; 2021 Lavagust Fox
     </footer>
 </body>
 </html>
