@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="HTML Basics" />
+    <meta name="keywords"content="HTML Basics, Web sandbox" />
+    <meta name="author"content="Lavagust Fox" />
+    <title>HTML Basics | Web Sandbox</title>
+</head>
+<body>
+    <header>
+    <h1>
+        HTML Basics |Web Sandbox
+    </h1>
+        </header>
+    
+    <main>
+        <aside>
+            <h2>
+                Topics
+            </h2>
+        </aside>
+        <section>
+            <h1>
+                HTML Basics
+            </h1>
+            <p>
+                HTML enables us to mark up the content to provide it more meaning behind the scenes. This can be used by search engines, screen readers, outlining tools, and readers of our code in general. We can mark a word as an abbreviation, create lists, display code and output, create tables, mark content as quotes, and provide citations. Browsers may or may not implement standard formatting (such as a dotted underline) or standard behavior (such as a tooltip when you hover over that markup) -- but regardless, we can add our own CSS or JavaScript to ensure such things. The point of HTML isn't to get a visual effect. It's to describe and structure your content.
+            </p>
+
+            <article>
+                <h2>
+                    Block vs. Inline Tags
+                </h2>
+                <p>
+                    Block level tags break up the flpw of content and take up the full width of their parent container. Inline tags only take up as much space as necessary to render their content.
+                </p>
+                <section>
+                    <h3>
+                        Common Block Level Tags
+                    </h3>
+                    <ul>
+                        <li>
+                            Headings - range from level 1 (primary) down to 6 (lowest level). Tags: h1 - h6
+                        </li>
+
+                        <li>
+                            Header – a container at the top to introduce a page or section (can be used more than once per page)
+                        </li>
+
+                        <li>
+                            Main – a container for primary page content – to be used up to once per page.
+                        </li>
+
+                        <li>
+                            Footer – a container at the bottom of a page or section, usually providing closing information like copyright and/or contact information or duplicate or lesser navigation (can be used more than once per page).
+                        </li>
+
+                        <li>
+                            Nav – a container intended for links, usually limited to main navigation links within the site or page.
+                        </li>
+                        <li>
+                            Article – a stand-alone content area that could even be on its own page. Typical uses would be articles, blog posts, and important self-contained topics.
+                        </li>
+
+                        <li>
+                            Section – subsections that group content together and should contain a heading. Not used simply for styling.
+                        </li>
+
+                        <li>
+                            Aside – content that is indirectly associated with the primary content (like pull-quotes, secondary nav blocks, advertisements, etc.)
+                        </li>
+
+                        <li>
+                            Div – the most generic of block-level containers. Previously the go-to standard, now the last resort container.
+                        </li>
+
+                        <li>
+                            Paragraph - A standard low-level block element for text and images, but one of the few not designed to contain any other block elements.
+                        </li>
+
+                        <li>
+                            List - Content is broken out (usually with bullet points or numbers) and designed for readability. Tags: ul, ol, dl
+                        </li>
+
+                        <li>
+                            Table: Designed for spreadsheet-style, tabular data, with information stored in individual cells laid out in columns and rows. Once used for page layout purposes, the adoption of CSS encourages tables to only be used grids of information for quick scanning, analysis, and comparison.
+                        </li>
+
+                        <li>
+                            Form: Designed to collect input from the user, typically to be sent to the webserver for server-side processing and response.
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>
+                        Common inline tags
+                    </h3>
+                    <ul>
+                        
+                        
+                        <li>   
+                            img -  an image to be displayed on the page.
+                        </li>
+                        
+                        <li>
+                            a - Anchor tags typically used to create hyperlinks pointing to other locations.
+                        </li>
+                        
+                        <li>
+                            span -  a generic inline element - only exists to target and manipulate it with CSS or JavaScript.
+                        </li>
+
+                        <li>
+                            strong - Strong Importance
+                        </li>
+
+                        <li>
+                            em - Emphasized
+                        </li>
+
+                        <li>
+                            button - an interface element users click on to trigger some programmed functionality.
+                        </li>
+
+                        <li>
+                            Input - used to generate one of several types of user input controls, like text boxes, radio buttons or checkboxes
+                        </li>
+
+                        <li>
+                            code - example code
+                        </li>
+
+                        <li>
+                            samp - Sample output from a computer program
+                        </li>
+
+                        <li>
+                            abbr - abbreviation or acronym (although there is an acronym tag, it's fallen out of favor and been merged with abbr)
+                        <li>
+                    </ul>
+                </section>
+            </article>
+            <article>
+                <h1>
+                    Lists
+                </h1>
+                <h2>
+                    Ordered Lists
+                </h2>
+                <p>
+                    Use OL container tags and LI internal container tags
+                </p>
+                <h3>
+                    How To Make a Grilled Cheese Sandwich
+                </h3>
+                <ol>
+                    <li>
+                        butter the bread
+                    </li>
+                    <li>
+                        Put two slices of chees on the bread
+                    </li>
+                    <li>
+                        Put the bread together
+                    </li>
+                    <li>
+                        Grill until toasty
+                    </li>
+                </ol>
+
+                <h2>
+                    Unordered Lists
+                </h2>
+                <p>
+                    Use UL container tags and LI internal container tags
+                </p>
+                <h3>
+                    Grocery list
+                </h3>
+                <ul>
+                    <li>
+                        Bread
+                    </li>
+                    <li>
+                        Butter
+                    </li>
+                    <li>
+                        chesses
+                    </li>
+                    <li>
+                        Milk
+                    </li>
+                    <li>
+                        bacon
+                    </li>
+                </ul>
+                <h2>
+                    Definition list
+                </h2>
+                <p>
+                    Use DL container tags, plus DT and DD internal container tags
+                </p>
+                <dl>
+                    <dt>
+                        8am
+                    </dt>
+                    <dd>
+                        Particpant Registration Opens
+                    </dd>
+                    <dt>
+                        9am
+                    </dt>
+                    <dd>
+                        Opening ceremonies
+                    </dd>
+                    <dt>
+                        10am
+                    </dt>
+                    <dd>
+                        Supernatural Meet
+                    </dd>
+                    <dd>
+                        Firefly meeting
+                    </dd>
+                    <dt>
+                        Noon
+                    </dt>
+                    <dd>
+                        lunch
+                    </dd>
+                    <dt>
+                        2:30
+                    </dt>
+                    <dt>
+                        3:00
+                    </dt>
+                    <dd>super smash bro pro fights</dd>
+                </dl>
+            </article>
+            <article>
+                <h1>
+                    Semantic vs. Non-Semantic tags
+                </h1>
+                <p>
+                    Semantic tags are intended to descrive the content that they hold. This hold to the spirit and philosophy of HTML. Examples of semantic tags include header, footer em, and strong. Examples of non-semantic tags include div, span, i and b.
+                </p>
+                <section>
+                    <h2>
+                        Examples
+                    </h2>
+                    <p>
+                        <i>
+                            This line is marked up as i for italic. (non-semantic)
+                        </i>
+                        <br />
+                        <em>
+                            This line is marked up as em for emphsasis.(semanic)
+                        </em>
+                        <br />
+                        <b>
+                            This line is marked up as b for bold. (non-semantic)
+                        </b>
+                        <br />
+                        <strong>
+                            This line is marked up as strong for strongly-emphasised. (Semantic)
+                        </strong>
+                    </p>
+                </section>
+            </article>
+        </section>
+    </main>
+    <footer>
+      &copy; 2021 Lavagust Fox
+    </footer>
+</body>
+</html>

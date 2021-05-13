@@ -1,0 +1,39 @@
+﻿main
+{
+    background-color:lavender;
+}
+
+header
+{
+    background-color: aliceblue;
+}
+
+h1
+{
+    color:darkblue;
+}
+
+h2
+{
+    color: rebeccapurple;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+aside h2
+{
+    background-color: cornsilk;
+    color: aqua;
+    text-decoration: none;
+
+}
+
+header h1 
+{
+    color:indigo
+}
+
+footer
+{
+    font-style: italic;
+}
