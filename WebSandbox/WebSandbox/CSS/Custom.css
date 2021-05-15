@@ -2,12 +2,17 @@
 @import url('import.css');
 main
 {
-    background-color:lavender;
+    /*background-color:lavender;*/
+    background-color:RGBA(150,150,150,.8);
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 header
 {
     background-color: aliceblue;
+    padding:.5em;
 }
 
 h1
@@ -35,9 +40,12 @@ header h1
     color:indigo
 }
 
-footer
-{
+footer {
     font-style: italic;
+    background-color: aliceblue;
+    text-align:center;
+    
+
 }
 nav a
 {
@@ -96,4 +104,19 @@ nav a:hover .selected
 {
     background-color:#DDD;
     color:#111;
+}
+
+/*Images styling*/
+body {
+    background: url('../images/ben-krygsman-745458-unsplash.jpg');
+    background-size:cover;
+    background-attachment:fixed
+        
+}
+/*Floats and clears*/
+
+header img
+{
+float:left;
+margin: 1em;
 }

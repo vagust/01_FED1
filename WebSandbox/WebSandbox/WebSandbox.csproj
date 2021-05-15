@@ -70,7 +70,9 @@
     <Content Include="CSS.html" />
     <Content Include="CSS\Custom.css" />
     <Content Include="CSS\import.css" />
+    <Content Include="CSS_Topics\images.html" />
     <Content Include="CSS_Topics\Colors.html" />
+    <Content Include="favicon.ico" />
     <Content Include="Html.html" />
     <Content Include="images\a-r-t-paola-589990-unsplash.jpg" />
     <Content Include="images\ben-krygsman-745458-unsplash.jpg" />

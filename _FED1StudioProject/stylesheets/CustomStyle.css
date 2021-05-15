@@ -5,6 +5,12 @@
 header
 {
     background-color:#364547
+    
+}
+.icon
+{
+    float:left;
+    margin:.2em
 }
 main
 {
@@ -13,8 +19,21 @@ main
 h1,h2,h3
 {
     color:#FFE268
+
 }
 p
 {
     color:#FFB037
+}
+header
+{
+    font-family: 'Berkshire Swash', cursive;
+}
+h1, h2, h3
+{
+    font-family: 'Merriweather', serif;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
 }

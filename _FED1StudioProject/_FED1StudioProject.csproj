@@ -68,6 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\Portal_icon_01.1.jpg" />
+    <Content Include="images\Portal_icon_01.png" />
+    <Content Include="images\Portal_icon_2.1.jpg" />
+    <Content Include="images\Portal_icon_2.jpg" />
     <Content Include="stylesheets\CustomStyle.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
@@ -87,7 +92,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
