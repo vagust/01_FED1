@@ -113,10 +113,66 @@ body {
     background-attachment:fixed
         
 }
+
+/*Table syling*/
+table, tr, td, th 
+{
+    border: 1px solid black;
+    border-collapse: collapse;  /*Removes duplicate borders*/
+}
+table
+{
+    margin:auto;
+    margin-bottom:2em;
+
+}
+th, td
+{
+    padding:.2em;
+    text-align:center;
+}
+thead, tfoot 
+{
+    background-color:lightsalmon;
+}
+tbody
+{
+    background-color:teal;
+}
+tbodytr:nth-child(even)
+{
+    background-color: aqua;
+}
 /*Floats and clears*/
 
 header img
 {
 float:left;
 margin: 1em;
+}
+
+#leftColumn
+{
+    width: 73%;
+    border-right:1px solid black;
+}
+#rightColumn
+{
+    width:25%;
+    float: right;
+}
+#htmlLeftColumn
+{
+    width: 30%;
+    float:left;
+}
+#htmlRightColumn
+{
+    width:68%;
+    border-left: 1px solid black;
+    float:right;
+}
+.clear
+{
+    clear:both;
 }

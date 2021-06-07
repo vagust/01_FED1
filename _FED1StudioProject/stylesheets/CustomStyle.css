@@ -37,3 +37,16 @@ body
 {
     font-family: 'Montserrat', sans-serif;
 }
+header a:hover {
+    color: #FFE268;
+    background-color: #364541;
+}
+header a {
+    background-color: #FFE268;
+    color: #364541;
+}
+.icon
+{
+    background-color: #364547
+
+}
